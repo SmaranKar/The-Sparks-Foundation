@@ -1,0 +1,76 @@
+*{
+background-image: url('Education.jpg');
+ background-repeat: no-repeat;
+ overflow: none;
+ background-attachment: fixed;
+ background-size:cover;
+}
+
+.logo{
+font-family: 'Patrick Hand', cursive;
+  font-size: 2.5rem;
+  font-style: bold;
+  letter-spacing: 3px;
+}
+.abcd a{
+    padding: 15px;
+    border: 0;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-style: bold;
+    color: rgb(0, 0, 0);
+    font-size:20px;
+}
+.abcd a:hover{
+text-decoration: none;
+color: rgb(54, 57, 202);
+}
+.don-box{
+  /* background-color: #ECBBB3; */
+  display:inline-block;
+  position:absolute;
+  width:500px;
+  height:300px;
+  margin:50px;
+  padding:20px;
+  left:750px;
+  border-radius: 30px;
+  top:200px;
+  text-align: center;
+  border:2px solid black ;
+  background-image: linear-gradient(to right, rgba(236, 187, 179, 0.5), rgba(245, 234, 206, 0.5));
+}
+.button{
+    position: absolute;
+    top: 87%;
+    left: 50%;
+    background-color: white;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    border:1px solid black;
+    padding: 10px 30px;
+    color:rgb(0, 0, 0);
+
+    text-decoration: none;
+    transition:0.6s ease;
+}
+
+.btn:hover{
+    background-color: #B31C37;
+    color: rgb(54, 57, 202);
+    font-weight: 800;
+    background-position: left bottom;
+}
+
+.bottom-container {
+    bottom: -0.5px;
+    left: 702px;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+}
+.copyright{
+  color: rgb(0, 0, 0);
+}
